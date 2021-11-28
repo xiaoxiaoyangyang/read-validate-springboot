@@ -25,6 +25,5 @@ public class User {
 
     @NotNull(groups=Update.class ,message="更新时id不能为空")
     @MustEmpty(groups=Insert.class,message="添加时id必须为空")
-
     private Integer id;
 }
